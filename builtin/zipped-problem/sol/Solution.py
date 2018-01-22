@@ -2,7 +2,7 @@ from functools import reduce
 
 
 def testfnzip():
-    a = [1 ,2 ,3 ,4 ,5 ,6]
+    a = [1, 2, 3, 4, 5, 6]
     b = ["a", "b", "c", "d", "e", "f"]
     c = [0x10, 0xff, 0x32, 0x7f, 0x86]
     zipped = zip(a, b, c)

@@ -1,4 +1,10 @@
-# filter(function, sequence)
+#
+'''
+filter(function, sequence)
+function deve retornar um valor booleano
+
+'''
+
 import types
 
 
@@ -18,10 +24,6 @@ def isInstanceOfFilter(obj):
     return isinstance(obj, filter)
 
 
-def isInstanceOfIterator(obj):
-    return isinstance(obj, types.Iterator)
-
-
 filterObject = filter_list_even([1, 2, 3, 4, 5])
 
 print(type(filterObject))           # class filter
@@ -30,6 +32,7 @@ print([i for i in filterObject])    # list comprehension
 
 print("S" if isInstanceOfFunctionType(even) else "N")
 print("S" if isInstanceOfFilter(filterObject) else "N")
+
 
 if __name__ == "__main__":
     pass

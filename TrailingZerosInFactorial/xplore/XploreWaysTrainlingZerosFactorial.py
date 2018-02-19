@@ -30,12 +30,18 @@ def countTrailingZerosFactorialV2(nFactorial):
 
 
 def printResultsAssesment(value):
-    print("%d %d" % (countTrailingZerosFactorialV1(value)
-                      , countTrailingZerosFactorialV2(value)))
+    print("%d: %d %d" % (value
+                     ,countTrailingZerosFactorialV1(value)
+                    ,countTrailingZerosFactorialV2(value)))
 
 
 printResultsAssesment(1000)
 printResultsAssesment(500)
+printResultsAssesment(777)
+printResultsAssesment(60)
+
+
+print(countTrailingZerosFactorialV1(19) + countTrailingZerosFactorialV1(59) + countTrailingZerosFactorialV1(158))
 
 
 if __name__ == '__main__':

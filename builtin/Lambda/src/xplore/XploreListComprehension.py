@@ -1,0 +1,1 @@
+# https://www.python-course.eu/python3_list_comprehension.php

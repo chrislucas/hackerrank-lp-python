@@ -1,3 +1,6 @@
+Concurrency
+https://docs.python.org/3.4/library/concurrency.html
+
 https://towardsdatascience.com/understanding-lamport-timestamps-with-pythons-multiprocessing-library-12a6427881c6
 https://medium.com/@balrajasubbiah/lamport-clocks-and-vector-clocks-b713db1890d7
 
@@ -5,3 +8,23 @@ String interpolation
 https://stackoverflow.com/questions/13945749/string-formatting-in-python-3
 https://www.python.org/dev/peps/pep-0498/
 https://realpython.com/python-string-formatting/
+
+
+
+Multiprocessing
+https://www.geeksforgeeks.org/multiprocessing-python-set-2/
+http://calcul.math.cnrs.fr/Documents/Ecoles/2010/cours_multiprocessing.pdf
+https://www.tutorialspoint.com/multiprocessing-in-python
+
+
+Java
+https://www.developer.com/java/data/parallel-programming-basics-with-the-forkjoin-framework-in-java.html
+https://www.foreach.be/blog/parallel-and-asynchronous-programming-in-java-8
+
+
+Relogios logicos em sistemas distribuidos
+https://en.wikipedia.org/wiki/Clock_drift
+https://en.wikipedia.org/wiki/Clock_skew
+
+Pesquisar por
+crystal-based clocks
